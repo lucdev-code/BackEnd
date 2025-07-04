@@ -21,5 +21,5 @@ app.get('/', (req, res) => {
 
 // aqui corremos la api por el puerto
 app.listen(port, () => {
-    console.log(`Api corriendo en el puerto: ${port}`)
+    console.log(`Api corriendo en el puerto: http://localhost:${port}`)
 })
